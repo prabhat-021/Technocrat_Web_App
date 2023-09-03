@@ -10,7 +10,7 @@ import iot from "../../Assets/iot.png";
 
 import graphic from "../../Assets/graphics.png";
 const data = [
-  {
+  { 
     name: "Web-Development",
     data: "this is a web development ... ",
     img: webd,
@@ -59,7 +59,7 @@ const Domain = () => {
 
         <div className={styles.domain_container}>
           {data.map((e) => (
-            <Domaincard name={e.name} img={e.img} />
+            <Domaincard key={e} name={e.name} img={e.img} />
           ))}
         </div>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Home.module.css"
- import homeIllustration from '../../Assets/frontill.png'
+//  import homeIllustration from '../../Assets/frontill.png'
 import discmap from '../../Assets/disc.png'
 import About from '../About/About'
 import Domain from '../Domain/Domain'

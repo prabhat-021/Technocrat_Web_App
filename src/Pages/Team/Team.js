@@ -63,7 +63,7 @@ const Team = () => {
       <div className={styles.test_text}>
         The People Who Drive <div>Our Mission </div>{" "}
       </div>
-      <div className={styles.mainimgdiv}><img src={teamsample}/></div>
+      <div className={styles.mainimgdiv}><img src={teamsample} alt="illust"/></div>
       <div className={styles.team_container}>
 {data.map((e)=><Teamcard name={e.name} img={e.img} role={e.role}/>)}
       </div>
