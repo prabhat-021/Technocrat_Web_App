@@ -1,0 +1,21 @@
+
+.testcard_wrapper{
+    width: 250px;
+    height: 200px;
+    border-radius:12px ;
+    background-color: #0D0D0D;
+    padding: 20px
+}
+.testcrad_name{
+    color: white;
+    font-weight: bold;
+}
+.testcard_role{
+    color: white;
+    font-size: 0.8em;
+}
+.testcard_desc{
+    color: white;
+}
+
+
