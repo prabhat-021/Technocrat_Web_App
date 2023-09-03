@@ -4,7 +4,7 @@ import styles from "./Contact.module.css";
 const Contact = () => {
   return (
     <div className={styles.container}>
-      <img className={styles.contill} src={contactill} />
+      <img className={styles.contill} src={contactill} alt="illustration" />
       <div className={styles.input_container}>
         <div className={styles.testimonial_wrapper}>
           <div className={styles.bgname}> CALL</div>

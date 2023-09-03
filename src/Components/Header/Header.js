@@ -7,7 +7,7 @@ const Header = () => {
   const [navcss,setnavcss] = useState({});
   return (
     <div className={styles.nav_container}>
-      <img src={clubIcon} className={styles.club_icon_img}></img>
+      <img src={clubIcon} className={styles.club_icon_img} alt="logoicon"></img>
       <div className={styles.hamburgericon}>   <FcMenu/></div>
    
       <div className={styles.link_container} style={navcss}>

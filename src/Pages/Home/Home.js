@@ -45,7 +45,7 @@ const Home = () => {
     <div className={styles.disc_text_2}>DISCORD NOW</div>
     <button className={styles.join_btn}>Join Now</button>
   </div>
-<img src={discmap} className={styles.discmapimg}/>
+<img src={discmap} className={styles.discmapimg} alt="illustartion"/>
 </div>
     </div>
 
