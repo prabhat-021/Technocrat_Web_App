@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Teamsection.module.css'
 const Teamsection = () => {
   return (
-    <div className={styles.team_wrapper}>
+    <div className={styles.team_wrapper} id="team">
         <div className={styles.bgname}> TEAM</div>
       <div className={styles.team_text}>
       The People Who Drive  <div>Our Mission</div> </div>
@@ -12,7 +12,12 @@ const Teamsection = () => {
 
 
 </div>
-<div className={styles.team_content}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, quo beatae! A odio eius dicta. Impedit quod voluptates quas nisi ipsa enim voluptatum molestiae obcaecati voluptate tempore. Aspernatur ullam illum libero et consequuntur, dolorum architecto eligendi vel aut perspiciatis incidunt ducimus? Ullam debitis hic incidunt dignissimos maxime totam ducimus eveniet similique maiores, blanditiis delectus sint impedit! Labore, alias voluptas. Sint, dicta? Quidem eaque facilis at quis ducimus, impedit officiis molestias iste, officia aliquam ullam quod sit quo dolore id explicabo mollitia ipsum eveniet illum. Minima porro reiciendis quibusdam ipsa hic alias velit, sint iste illum tempore aliquam vero aliquid exercitationem?</div>
+<div className={styles.team_content}>Mission: Acclaiming Innovative Reverence Through Technological Devotion Optimistic of designing a realm of creative exploration and collaborative innovation along the objective of visionary evolution in the pursuit of technological pinnacle, the mission of 'Technocrats' traces the picture of a passionate community which stands appreciative of versatility in diversity, through an odyssey of hands-on experiences and knowledge-sharing to empower tech enthusiasts in shaping an ingenious future. 
+<div className={styles.team_content_2}>
+Vision: Premeiring as a dedicated precision towards the cultuvation of technological innovation in creative enthusiasm of interactive leadership among the scholars of the Institute, 'Technocrats' envisions a furturistic community with a motivational complexity, empowering members past the constraints of the orthodox.
+</div>
+
+</div>
 
       </div>
       <button className={styles.teambtn}>View All</button>

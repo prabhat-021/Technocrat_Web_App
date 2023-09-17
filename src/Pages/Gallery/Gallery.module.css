@@ -32,8 +32,7 @@ text-align: center;
    
 }
 .test_text{
-    background-image: url('../../../public/pseudo.png');
-  background-repeat: no-repeat;
+   
   text-align: center;
   position: relative;
   bottom: 20px;
@@ -47,6 +46,7 @@ text-align: center;
     margin: 20px;
     align-items: center;
     justify-content: center;
+    gap: 10px;
   }
   .gall_btn{
     font-family: Jost;

@@ -12,7 +12,7 @@ import graphic from "../../Assets/graphics.png";
 const data = [
   { 
     name: "Web-Development",
-    data: "this is a web development ... ",
+    data: "Examined as an existence in the soul of the Internet age, Web Development is a professional field which has helped the world envision numerous aspects of E-shopping, E-transition and many more ",
     img: webd,
   },
   {
@@ -36,15 +36,15 @@ const data = [
     img: cyber,
   },
   {
-    name: "Internet of Things",
+    name: "UI-UX",
     data: "this is a web development ... ",
-    img:iot
+    img: cyber,
   },
   {
-    name: "Graphics Design",
+    name: "Content-Writing",
     data: "this is a web development ... ",
-    img:graphic
-  },
+    img: cyber,
+  }
 ];
 const Domain = () => {
   return (
@@ -59,7 +59,7 @@ const Domain = () => {
 
         <div className={styles.domain_container}>
           {data.map((e) => (
-            <Domaincard key={e} name={e.name} img={e.img} />
+            <Domaincard key={e} name={e.name} img={e.img} data={e.data} />
           ))}
         </div>
 

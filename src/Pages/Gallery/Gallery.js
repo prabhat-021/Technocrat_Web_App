@@ -1,26 +1,29 @@
 import React from 'react'
 import styles from './Gallery.module.css'
-import sample from '../../Assets/team/Card.png'
+import glimpse1 from '../../Assets/glimpse/glimpse1.png'
+import glimpse2 from '../../Assets/glimpse/glimpse2.png'
+import glimpse3 from '../../Assets/glimpse/glimpse3.png'
+import glimpse4 from '../../Assets/glimpse/glimpse4.png'
+import glimpse5 from '../../Assets/glimpse/glimpse5.png'
 import Gallerycard from '../../Components/GalleryCard/Gallerycard'
 const imgdata = [
   {
     name:"aryan",
-    img:sample
+    img:glimpse1
+  },
+  {
+    name:"aryan",
+    img:glimpse5
+  },
+  , {
+    name:"aryan",
+    img:glimpse4
   }, {
     name:"aryan",
-    img:sample
-  }, {
+    img:glimpse3
+  } ,{
     name:"aryan",
-    img:sample
-  }, {
-    name:"aryan",
-    img:sample
-  }, {
-    name:"aryan",
-    img:sample
-  }, {
-    name:"aryan",
-    img:sample
+    img:glimpse2
   },
 ]
 const Gallery = () => {
@@ -32,7 +35,7 @@ const Gallery = () => {
 <div className={styles.imagecontainer}>
 {imgdata.map((e)=><Gallerycard image={e.img}/>)}
 </div>
-<button className={styles.gall_btn}>Show More</button>
+{/* <button className={styles.gall_btn}>Show More</button> */}
   </div>
   )
 }

@@ -67,8 +67,7 @@ text-align: center;
    
 }
 .test_text{
-    background-image: url('../../../public/pseudo.png');
-  background-repeat: no-repeat;
+    
   text-align: center;
   position: relative;
   bottom: 20px;

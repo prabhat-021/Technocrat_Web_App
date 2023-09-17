@@ -22,14 +22,14 @@ font-size: 20vmin;
   font-weight: 800;
 }
 .domain_text{
-  background-image: url('../../../public/pseudo.png');
-background-repeat: no-repeat;
+
 
 position: relative;
-bottom: 40px;
+bottom: 60px;
   color: white;
-  font-size: 3vw;
+  font-size: 3.2vw;
   font-weight: bold;
+  
 }
 
 .domain_container{

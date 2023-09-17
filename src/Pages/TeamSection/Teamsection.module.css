@@ -45,9 +45,15 @@ line-height: 25px;
 letter-spacing: 1.4199999570846558px;
 text-align: justify;
 margin: 30px;
+letter-spacing: 0.8px;
+word-spacing: 0.4px;
+line-height: 30px;
 
 }
-
+.team_content_2{
+  margin-top: 12px;
+  text-align: justify;
+}
 .teambtn{
   padding: 10px;
   color: white;

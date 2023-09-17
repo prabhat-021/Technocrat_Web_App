@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className={styles.nav_container}>
       <img src={clubIcon} className={styles.club_icon_img} alt="logoicon"></img>
-      <div className={styles.hamburgericon}>   <FcMenu/></div>
+
    
       <div className={styles.link_container} >
       <Link to="/" className={styles.nav_link}>Home</Link>
@@ -17,7 +17,7 @@ const Header = () => {
       
       <Link to="/resource" className={styles.nav_link}>Contact</Link>
       </div>
-      <button className={styles.joinbtn}>Join Us</button>
+     <a href="https://discord.gg/aDEMAmEP"> <button className={styles.joinbtn}>Join Us</button></a>
     </div>
   );
 };

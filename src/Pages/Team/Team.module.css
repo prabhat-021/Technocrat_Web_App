@@ -33,8 +33,7 @@ text-align: center;
    
 }
 .test_text{
-    background-image: url('../../../public/pseudo.png');
-  background-repeat: no-repeat;
+   
   text-align: center;
   position: relative;
   bottom: 20px;
@@ -46,6 +45,12 @@ text-align: center;
   .mainimgdiv{
     margin: 70px;
     min-width: 300px;
+    max-width: 60vw;
+   
+  }
+  .team_img{
+    border-radius: 30px;
+   
   }
   .team_container{
     display: flex;

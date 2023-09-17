@@ -1,58 +1,81 @@
 import React from "react";
 import styles from "./Team.module.css";
 import Teamcard from "../../Components/TeamCard/Teamcard";
-import teamsample from '../../Assets/teamsample.png'
-import aryan from '../../Assets/sam.png'
+import teamsample from '../../Assets/team/team.JPG'
+import aryan from '../../Assets/team/aryan.png'
+import Prashant from '../../Assets/team/prashant.png'
+import archit from '../../Assets/team/archit.png'
+import kushagra from '../../Assets/team/kushagra.png'
+import raj from '../../Assets/team/raj.png'
+import garvit from '../../Assets/team/garvit.png'
+import veer from '../../Assets/team/narwar.png'
+import raunak from '../../Assets/team/raunak.png'
+import utlarsh from '../../Assets/team/utkarsh.png'
+import sanskriti from '../../Assets/team/vats.png'
+import Jhalak from '../../Assets/team/jhalak.jpg'
+
 const data = [
   {
-    name: "Aryan Tiwari",
-    role: "Web-Lead",
-    img: aryan
+    name: "Prashant Rai",
+    role: "Co-Founder",
+    img: Prashant
   },
+  {
+    name: "Kushagra Srivastava",
+    role: "Co-Founder",
+    img: kushagra
+  },
+  {
+    name: "Archit Srivastava",
+    role: "President",
+    img: archit
+  },
+  {
+    name: "Harveer Narwar",
+    role: "Vice-President",
+    img: veer
+  },
+  {
+    name: "Raj Pandey",
+    role: "Vice-President",
+    img: raj
+  },
+
   {
     name: "Sanskriti Vats",
-    role: "Web-Lead",
-    img:aryan 
+    role: "General Secretary",
+    img:sanskriti 
   },
+  
   {
     name: "Aryan Tiwari",
     role: "Web-Lead",
     img: aryan
   },
   {
-    name: "Aryan Tiwari",
-    role: "Web-Lead",
-    img: aryan
+    name: "Garvit Agarwal",
+    role: "ML Lead",
+    img:garvit
   },
   {
-    name: "Aryan Tiwari",
-    role: "Web-Lead",
-    img:aryan
+    name: "Raunak Seth",
+    role: "Android Lead",
+    img: raunak
   },
   {
-    name: "Aryan Tiwari",
-    role: "Web-Lead",
-    img: aryan
+    name: "Utkarsh Shukla",
+    role: "AR/VR Lead",
+    img:utlarsh
   },
   {
-    name: "Sanskriti Vats",
-    role: "Web-Lead",
-    img:aryan
+    name: "Jhalak Saxena",
+    role: "Content-Lead",
+    img:utlarsh
   },
   {
-    name: "Aryan Tiwari",
-    role: "Web-Lead",
-    img:aryan
-  },
-  {
-    name: "Aryan Tiwari",
-    role: "Web-Lead",
-    img:aryan
-  },
-  {
-    name: "Aryan Tiwari",
-    role: "Web-Lead",
-    img:aryan
+    name: "Tushar Singh",
+    role: "UI-UX Lead",
+    img:utlarsh
   },
 ];
 
@@ -63,7 +86,7 @@ const Team = () => {
       <div className={styles.test_text}>
         The People Who Drive <div>Our Mission </div>{" "}
       </div>
-      <div className={styles.mainimgdiv}><img src={teamsample} alt="illust"/></div>
+      <div className={styles.mainimgdiv}><img className={styles.team_img} src={teamsample} alt="illust"/></div>
       <div className={styles.team_container}>
 {data.map((e)=><Teamcard name={e.name} img={e.img} role={e.role}/>)}
       </div>

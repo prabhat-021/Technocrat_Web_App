@@ -5,6 +5,7 @@ const Domaincard = (props) => {
   <div className={styles.domain_card_wrapper}>
   <img src={props.img} alt="illustartion" className={styles.domain_img} />
   <div className={styles.domain_name}>{props.name}</div>
+
   </div>
   )
 }
