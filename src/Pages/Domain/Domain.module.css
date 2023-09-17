@@ -40,3 +40,16 @@ bottom: 60px;
   justify-content: space-around;
   gap: 40px;
 }
+@media only screen and (max-width: 425px) {
+  
+ 
+  .domain_text{
+    color: white;
+   text-align: center;
+   font-size: 1.1em;
+   word-spacing: 2px;
+   letter-spacing: 1px;
+   line-height: 20px
+  }
+  
+    }

@@ -63,4 +63,15 @@ cursor: pointer;
 
   }
 
+  @media only screen and (max-width: 425px) {
+  
+  
+    .test_text{
+      color: white;
+     text-align: center;
+     font-size:1.2em;
+     word-spacing: 2px;
+    }
+    
+      }
   
