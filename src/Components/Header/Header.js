@@ -14,7 +14,7 @@ const Header = () => {
     setOpen(!Open);
   };
 const autoclose =()=>{
-  setOpen(!Open);
+  setOpen(Open = false);
 }
   useEffect(() => {
     if (window.innerWidth <= 700) {

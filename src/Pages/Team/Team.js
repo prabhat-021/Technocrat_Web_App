@@ -12,7 +12,8 @@ import veer from '../../Assets/team/narwar.png'
 import raunak from '../../Assets/team/raunak.png'
 import utlarsh from '../../Assets/team/utkarsh.png'
 import sanskriti from '../../Assets/team/vats.png'
-import Jhalak from '../../Assets/team/jhalak.jpg'
+import Jhalak from '../../Assets/team/jhalak.png'
+import tushar from '../../Assets/team/tushar.png'
 
 const data = [
   {
@@ -70,12 +71,12 @@ const data = [
   {
     name: "Jhalak Saxena",
     role: "Content-Lead",
-    img:utlarsh
+    img:Jhalak
   },
   {
     name: "Tushar Singh",
     role: "UI-UX Lead",
-    img:utlarsh
+    img:tushar
   },
 ];
 
