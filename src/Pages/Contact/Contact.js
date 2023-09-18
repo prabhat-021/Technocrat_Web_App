@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import contactill from "../../Assets/contactill.png";
 import styles from "./Contact.module.css";
+import toast from 'react-hot-toast';
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -9,8 +10,10 @@ const Contact = () => {
 
     emailjs.sendForm('service_768sn4r', 'template_pk2uyaq', form.current, '0pJwt3zoFQv1CRgBA')
       .then((result) => {
+        toast.success('Message Sent');
           console.log(result.text);
       }, (error) => {
+        toast.error('Message is not sent some error');
           console.log(error.text);
       });
   };
