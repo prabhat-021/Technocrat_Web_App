@@ -23,15 +23,17 @@ min-width: 250px;
 
 }
 .contbtn{
+   width: 150px;
     color: white;
     background: linear-gradient(270deg, #186EF2 0%, #6D18EF 100%);
-    width: 100px;
-    height: 30px;
-    padding: 10px 20px;
-    display: flex;
-    text-align: center;
-    align-items: center;
     border-radius:5px ;
+    padding: 15px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2em;
+    font-family: Nunito,sans-serif;
+
 
 }
 
@@ -76,6 +78,12 @@ text-align: center;
     font-weight: bold;
   }
 
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
 
 
   @media only screen and (max-width: 700px) {
