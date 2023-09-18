@@ -13,7 +13,9 @@ const Header = () => {
   const upMenu = () => {
     setOpen(!Open);
   };
-
+const autoclose =()=>{
+  setOpen(!Open);
+}
   useEffect(() => {
     if (window.innerWidth <= 700) {
       setVisible(true);
@@ -46,11 +48,11 @@ const Header = () => {
       <div style={{ border:"2px solid grey",borderRadius:"5px",margin:"10px"}} className={`${styles.ham_menu} ${Visible ? "" : styles.close_menu}`} onClick={upMenu}>
         <RxCross2 style={{marginTop:"12px", borderBottom:"2px solid grey"}} className={styles.close_icon} size={30} color="white" />
       </div>
-        <Link  to="/" className={`${Open ? styles.nav_mobile_view : ""} ${styles.nav_link}`}>Home</Link>
-        <Link to="/team" className={`${Open ? styles.nav_mobile_view : ""} ${styles.nav_link}`}>Team</Link>
-        <Link to="/resource" className={`${Open ? styles.nav_mobile_view : ""} ${styles.nav_link}`}>Resources</Link>
+        <Link  to="/" onClick={autoclose} className={`${Open ? styles.nav_mobile_view : ""} ${styles.nav_link}`}>Home</Link>
+        <Link to="/team"  onClick={autoclose} className={`${Open ? styles.nav_mobile_view : ""} ${styles.nav_link}`}>Team</Link>
+        <Link to="/resource"  onClick={autoclose} className={`${Open ? styles.nav_mobile_view : ""} ${styles.nav_link}`}>Resources</Link>
 
-        <Link to="/resource" className={`${Open ? styles.nav_mobile_view : ""} ${styles.nav_link}`}>Contact</Link>
+        <Link to="/resource"  onClick={autoclose} className={`${Open ? styles.nav_mobile_view : ""} ${styles.nav_link}`}>Contact</Link>
 
         {/* styles.nav_link */}
         
