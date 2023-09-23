@@ -89,7 +89,7 @@ const Team = () => {
       </div>
       <div className={styles.mainimgdiv}><img className={styles.team_img} src={teamsample} alt="illust"/></div>
       <div className={styles.team_container}>
-{data.map((e)=><Teamcard name={e.name} img={e.img} role={e.role}/>)}
+{data.map((e)=><Teamcard key={e.name} name={e.name} img={e.img} role={e.role}/>)}
       </div>
     </div>
   );

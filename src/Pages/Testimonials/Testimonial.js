@@ -10,7 +10,7 @@ const data = [{
     name:"Ayush Singh",
     role:"Senior Data Scientist",
     img:ayush,
-    desc:" I help data science learners grab high paying jobs and first pay checks | Experience at Replayed, ZenML, & Artifact",
+    desc: " I help data science learners grab high paying jobs and first pay checks | Experience at Replayed, ZenML, & Artifact",
     twitter:"https://x.com/AySh2218?t=h3YUEDp5mIcbKJQ6MWv2rQ&s=08",
     linkedin:"https://www.linkedin.com/in/ayush-singh488",
     instagram:""
@@ -41,8 +41,8 @@ const data = [{
     linkedin:"https://www.linkedin.com/in/ajaysuneja",
   instagram:""}
 ,
-,{
-  name:"Ajay Suneja",
+{
+  name:"Ajaytruuf Suneja",
   role:"Adidas",
   img:anuj,
   desc:"Frontend Developer at @adidas | Ex- ITC Infotech | Ex- Coforge (NIIT) | GDSC’23 & Postman’23 Speaker ",
@@ -50,16 +50,13 @@ const data = [{
   linkedin:"",
 instagram:""}
 ,{
-  name:"Ajay Suneja",
+  name:"Ajaygfg Suneja",
   role:"Adidas",
   img:anuj,
   desc:"Frontend Developer at @adidas | Ex- ITC Infotech | Ex- Coforge (NIIT) | GDSC’23 & Postman’23 Speaker ",
   twitter:"",
   linkedin:"",
 instagram:""}
-,
-
-
 ]
 const Testimonial = () => {
   return (
@@ -68,7 +65,7 @@ const Testimonial = () => {
       <div className={styles.test_text}>
        Experience Our Excellence <div>Through Testimonials</div> </div>
 <div className={styles.testimonial_container}>
-  {data.map((e)=><Testicard desc={e.desc} img={e.img} role={e.role} name={e.name } linkedin={e.linkedin} instagram={e.instagram} twitter={e.twitter}/>)}
+  {data.map((e)=><Testicard key={e.name} desc={e.desc} img={e.img} role={e.role} name={e.name } linkedin={e.linkedin} instagram={e.instagram} twitter={e.twitter}/>)}
 </div>
 
     </div>

@@ -10,6 +10,10 @@ import Team from './Pages/Team/Team';
 import Resource from './Pages/Resource/Resource';
 
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
+import Aboutpage from './Pages/About/Aboutpage';
+import Course from './Pages/Courses/Course';
+import Videos from './Pages/Videos/Videos';
+import Player from './Pages/player/Player';
 
 const appRouter  = createBrowserRouter([
   {
@@ -23,7 +27,7 @@ const appRouter  = createBrowserRouter([
       },
       {
         path:"/about",
-        element:<About/>
+        element:<Aboutpage/>
       },
       {
         path:"/team",
@@ -36,6 +40,16 @@ const appRouter  = createBrowserRouter([
       {
         path:"/resource",
         element:<Resource/>
+      },{
+        path:"/course",
+        element:<Course/>
+      },{
+        path:"/videos",
+        element:<Videos/>
+      },
+      {
+        path:"/video",
+        element:<Player/>
       }
     ]
   }

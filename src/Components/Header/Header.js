@@ -14,7 +14,10 @@ const Header = () => {
     setOpen(!Open);
   };
 const autoclose =()=>{
-  setOpen(Open = false);
+  if(Open===true){
+    setOpen(false);
+  }
+
 }
   useEffect(() => {
     if (window.innerWidth <= 700) {
@@ -51,8 +54,7 @@ const autoclose =()=>{
         <Link  to="/" onClick={autoclose} className={`${Open ? styles.nav_mobile_view : ""} ${styles.nav_link}`}>Home</Link>
         <Link to="/team"  onClick={autoclose} className={`${Open ? styles.nav_mobile_view : ""} ${styles.nav_link}`}>Team</Link>
         <Link to="/resource"  onClick={autoclose} className={`${Open ? styles.nav_mobile_view : ""} ${styles.nav_link}`}>Resources</Link>
-
-        <Link to="/resource"  onClick={autoclose} className={`${Open ? styles.nav_mobile_view : ""} ${styles.nav_link}`}>Contact</Link>
+       <Link to="/about"  onClick={autoclose} className={`${Open ? styles.nav_mobile_view : ""} ${styles.nav_link}`}>About</Link>
 
         {/* styles.nav_link */}
         
