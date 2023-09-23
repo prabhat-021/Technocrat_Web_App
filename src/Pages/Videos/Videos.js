@@ -24,8 +24,20 @@ const Videos = () => {
       fetchData();
     }, []);
   return (
-    <div className={styles.video_container}>
-      {data?.items?.map((e)=> <Link to={"/video?v="+e.snippet.resourceId.videoId}> <Videocard name={e.snippet.title} img={e.snippet.thumbnails.high.url}/></Link>)}
+    <div className={styles.team_wrapper}>
+ <div className={styles.bgname}> Videos</div>
+      <div className={styles.team_text}>
+        The People Who Drive <div>Our Mission</div>{" "}
+      </div>
+
+      <div className={styles.video_container}>
+
+      {data?.items?.map((e)=> 
+      <Link style={{textDecoration:"none"}} to={"/video?v="+e.snippet.resourceId.videoId}>
+       <Videocard name={e.snippet.title} img={e.snippet.thumbnails.medium.url} channel_name={e.snippet.channelTitle}/>
+      
+      </Link>)}
+    </div>
     </div>
   )
 }
