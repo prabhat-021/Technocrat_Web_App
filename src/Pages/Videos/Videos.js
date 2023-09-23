@@ -25,9 +25,9 @@ const Videos = () => {
     }, []);
   return (
     <div className={styles.team_wrapper}>
- <div className={styles.bgname}> Videos</div>
+ <div className={styles.bgname}> VIDEOS</div>
       <div className={styles.team_text}>
-        The People Who Drive <div>Our Mission</div>{" "}
+      Watch valuable content  <div>in video format</div>{" "}
       </div>
 
       <div className={styles.video_container}>

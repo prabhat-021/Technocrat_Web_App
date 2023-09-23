@@ -55,7 +55,7 @@ const data = [
 const Resource = () => {
   return (
     <div className={styles.domain_wrapper}>
- <div className={styles.bgname}> Resources</div>
+ <div className={styles.bgname}> RESOURCES</div>
       <div className={styles.test_text}>
       Maximize Efficiency with <div>Tech Resources </div>{" "}
       </div>
