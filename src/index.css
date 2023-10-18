@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+ 
 }
 
 body,
@@ -16,7 +17,7 @@ ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
-  -webkit-font-smoothing: antialiased;
+  
 }
 
 ol,
@@ -27,4 +28,7 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+}
+Link{
+  text-decoration: none;
 }

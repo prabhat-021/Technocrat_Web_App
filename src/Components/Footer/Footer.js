@@ -19,21 +19,21 @@ const Footer = () => {
       </div>
       <div className={styles.foter_blocks_2}>
         <div>GALLERY</div>
-        <div>ACHEIVMENTS</div>
+        <div>ACHIEVEMENTS</div>
         <div>BLOGS</div>
         <div>MEET OUR TEAM</div>
       </div>
       <div className={styles.foter_blocks_3}>
         <div className={styles.iconcont}>
           <TiLocation className={styles.icon} /> KIET GROUP OF
-          INSTITIUTIONS,GHAZIABAD
+          INSTITIUTIONS, GHAZIABAD
         </div>
 
-        <div className={styles.iconcont}>
+        {/* <div className={styles.iconcont}>
           {" "}
           <TiPhone className={styles.icon} />
           +91-7302855302
-        </div>
+        </div> */}
         <div className={styles.iconcont}>
           <TiMail className={styles.icon} />
           technocrats@kiet.edu

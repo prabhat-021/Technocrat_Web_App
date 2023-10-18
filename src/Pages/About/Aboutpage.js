@@ -18,7 +18,7 @@ const Aboutpage = () => {
     <div className={styles.testimonial_wrapper}>
     <div className={styles.bgname}> About</div>
     <div className={styles.test_text}>
-    Discover the story behind <div> our passion and purpose. </div>{" "}
+    The Optimism in   Our Origination{" "}
     </div>
     <div className={styles.about_content}>Mapped out as a group of passionate tech enthusiasts committed towards sharing knowledge and expertise in the world of technology, the team of Technocrats views itself in the pursuit of demystifying the complexities of the digital realm, inspiring innovation, and empowering individuals and businesses in thriving in an ever-evolving tech landscape.
 </div >

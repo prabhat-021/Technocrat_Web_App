@@ -11,8 +11,8 @@ const Teamsection = () => {
       <div>
         <div></div>
         <div className={styles.team_content}>
-          Mission: Acclaiming Innovative Reverence Through Technological
-          Devotion Optimistic of designing a realm of creative exploration and
+          Mission: Acclaiming innovative reverence through technological
+          devotion optimistic of designing a realm of creative exploration and
           collaborative innovation along the objective of visionary evolution in
           the pursuit of technological pinnacle, the mission of 'Technocrats'
           traces the picture of a passionate community which stands appreciative

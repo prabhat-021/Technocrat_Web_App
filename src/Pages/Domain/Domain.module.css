@@ -29,6 +29,7 @@ bottom: 60px;
   color: white;
   font-size: 3.2vw;
   font-weight: bold;
+  text-align: center;
   
 }
 
@@ -50,6 +51,14 @@ bottom: 60px;
    word-spacing: 2px;
    letter-spacing: 1px;
    line-height: 20px
+  }
+  .domain_container{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
   }
   
     }

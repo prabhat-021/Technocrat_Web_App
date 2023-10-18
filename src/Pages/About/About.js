@@ -12,7 +12,7 @@ const About = () => {
          <span className={styles.about_text_1}>Cultivating-- </span>
          <span className={styles.about_text_1}> Curiosity in</span>
         <span className={styles.about_text_1}>
-        Passionate Innovation
+        Innovative Design
         </span>
         </div>
         <div className={styles.about_text_2_wrapper}>

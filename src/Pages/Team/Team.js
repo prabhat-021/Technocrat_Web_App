@@ -50,7 +50,7 @@ const data = [
   
   {
     name: "Aryan Tiwari",
-    role: "Web-Lead",
+    role: "Web Lead",
     img: aryan
   },
   {
@@ -70,12 +70,12 @@ const data = [
   },
   {
     name: "Jhalak Saxena",
-    role: "Content-Lead",
+    role: "Content Lead",
     img:Jhalak
   },
   {
     name: "Tushar Singh",
-    role: "UI-UX Lead",
+    role: "UI/UX Lead",
     img:tushar
   },
 ];
@@ -85,7 +85,7 @@ const Team = () => {
     <div className={styles.testimonial_wrapper}>
       <div className={styles.bgname}> TEAM</div>
       <div className={styles.test_text}>
-        The People Who Drive <div>Our Mission </div>{" "}
+        The People who Drive <div>our Mission </div>{" "}
       </div>
       <div className={styles.mainimgdiv}><img className={styles.team_img} src={teamsample} alt="illust"/></div>
       <div className={styles.team_container}>

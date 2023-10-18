@@ -47,6 +47,9 @@
     cursor: pointer;
 
 }
+.joinbtn:hover{
+    transform: scale(1.2);
+}
 .join_mobile{
     color: white;
     background: linear-gradient(270deg, #186EF2 0%, #6D18EF 100%);
