@@ -43,22 +43,23 @@ bottom: 60px;
 }
 @media only screen and (max-width: 425px) {
   
- 
+  .domain_container{
+   margin: 0;
+   padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+  }
   .domain_text{
+    position: relative;
+bottom: 50px;
     color: white;
    text-align: center;
    font-size: 1.1em;
    word-spacing: 2px;
    letter-spacing: 1px;
    line-height: 20px
-  }
-  .domain_container{
-    margin: 30px;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 40px;
   }
   
     }
