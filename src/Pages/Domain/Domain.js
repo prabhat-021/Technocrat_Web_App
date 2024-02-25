@@ -40,8 +40,8 @@ const data = [
     img: cyber,
   },
   {
-    name: "Graphics",
-    addon: "Design",
+    name: "Graphic",
+    addon: "Designing",
     data: "this is a web development ... ",
     img: graphic,
   },
@@ -59,8 +59,8 @@ const Domain = () => {
         <div className={styles.bgname}>DOMAINS</div>
        
         <div className={styles.domain_text}>
-          Dive Deeper into Our
-          <div> Technical Domains</div>{" "}
+        An Insight of Our Versatile
+          <div>  Domains</div>{" "}
         </div>
 
         <div className={styles.domain_container}>

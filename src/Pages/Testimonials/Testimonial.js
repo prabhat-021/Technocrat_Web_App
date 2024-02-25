@@ -42,18 +42,18 @@ const data = [{
   instagram:""}
 ,
 {
-  name:"Ajaytruuf Suneja",
-  role:"Adidas",
-  img:anuj,
-  desc:"Frontend Developer at @adidas | Ex- ITC Infotech | Ex- Coforge (NIIT) | GDSC’23 & Postman’23 Speaker ",
+  name:"Nitish Agrawal",
+  role:"Security @ V-Mart",
+  img:"https://media.licdn.com/dms/image/D4D35AQG_a82f5NoWYA/profile-framedphoto-shrink_400_400/0/1691556161765?e=1698087600&v=beta&t=0BBT0YwBqfGHmDD5UXjVf6p_Nr9HMG3b61EQPt9AQGM",
+  desc:"23| Security @ V-Mart | Cyber Security Enthusiastic| 10+ Talks | Master's Diploma in Cyber Security| Cyber Volunteer (UP POLICE) | Speaker | Teacher | Hacker ",
   twitter:"",
   linkedin:"",
 instagram:""}
 ,{
-  name:"Ajaygfg Suneja",
-  role:"Adidas",
-  img:anuj,
-  desc:"Frontend Developer at @adidas | Ex- ITC Infotech | Ex- Coforge (NIIT) | GDSC’23 & Postman’23 Speaker ",
+  name:"Shreyansh Shukla",
+  role:"Amazon",
+  img:"https://media.licdn.com/dms/image/D5603AQFlRB2uwNJbFg/profile-displayphoto-shrink_400_400/0/1689147267253?e=1703116800&v=beta&t=HQYc2-8_6C7qY2fKNkfEop96uJ5ZDe6WkxO0H6GeS28",
+  desc:"SDE @Amazon | Competitive Programmer",
   twitter:"",
   linkedin:"",
 instagram:""}

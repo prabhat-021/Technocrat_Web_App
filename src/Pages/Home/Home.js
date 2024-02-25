@@ -26,7 +26,7 @@ const Home = () => {
     <div>
     <div className={styles.container}> 
   <div className={styles.topheading}>TECHNOCRATS</div>
-  <div className={styles.heading_2}>TECHNICAL CLUB OF KIET GROUP OF INSTITUTIONS
+  <div className={styles.heading_2}>LEAD-COLLABORATE-EXPLORE
  
 </div>
 <div ref={container} id="animation-container" className={styles.lottie}></div>
@@ -40,9 +40,9 @@ const Home = () => {
     <div className={styles.discordjoin_container}>
 <div className={styles.dis_section}>
   <div>
-    <div className={styles.disc_text_1}>Wanna join us ?</div>
+    <div className={styles.disc_text_1}>Wanna join us?</div>
     <div className={styles.disc_text_2}>JOIN OUR</div>
-    <div className={styles.disc_text_2}>DISCORD NOW</div>
+    <div className={styles.disc_text_2}>DISCORD, NOW!</div>
   <a href='https://discord.gg/aDEMAmEP'><button className={styles.join_btn}>Join Now</button></a>  
   </div>
 <img src={discmap} className={styles.discmapimg} alt="illustartion"/>

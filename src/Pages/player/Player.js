@@ -16,10 +16,7 @@ const Player = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       ></iframe> 
-      <div>
-        <button>Previous</button>
-        <button>Next</button>
-      </div>
+     
       </div>
   )
 }

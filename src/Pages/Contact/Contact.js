@@ -25,7 +25,7 @@ const Contact = () => {
           <div className={styles.bgname}> CALL</div>
           <div className={styles.test_text}>
             Ready to Work Together
-            <div>In News Projects ?</div>{" "}
+            <div>on New Projects?</div>{" "}
           </div>
         </div>
         <form className={styles.form} ref={form} onSubmit={sendEmail}>
@@ -34,7 +34,7 @@ const Contact = () => {
       <label>Email</label>
       <input className={styles.input} type="email" name="user_email" placeholder='Your Email' /> 
       <label>Message</label>
-      <textarea name="message" placeholder='Your Message' />
+      <textarea name="message" placeholder='Your Message' style={{minHeight:"100px"}} />
       <input className={styles.contbtn} type="submit" value="Submit Now" />
     </form>
 
