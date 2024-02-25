@@ -14,7 +14,7 @@ const imgdata = [
   {
     name:"aryan",
     img:glimpse5
-  },
+  }
   , {
     name:"aryan",
     img:glimpse4
@@ -24,7 +24,7 @@ const imgdata = [
   } ,{
     name:"aryan",
     img:glimpse2
-  },
+  }
 ]
 const Gallery = () => {
   return (
@@ -33,7 +33,7 @@ const Gallery = () => {
     <div className={styles.test_text}>
     A Glimpse of Our  <div>Vision</div> </div>
 <div className={styles.imagecontainer}>
-{imgdata.map((e)=><Gallerycard image={e.img}/>)}
+{imgdata.map((e)=><Gallerycard key={e.img} image={e.img}/>)}
 </div>
 {/* <button className={styles.gall_btn}>Show More</button> */}
   </div>

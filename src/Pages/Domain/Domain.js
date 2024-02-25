@@ -6,42 +6,48 @@ import and from "../../Assets/android.png";
 import webd from "../../Assets/webdev.png";
 import cyber from "../../Assets/cyber.png";
 import meta from "../../Assets/arvr.png";
-import iot from "../../Assets/iot.png";
-
 import graphic from "../../Assets/graphics.png";
+import ml from "../../Assets/ml.png";
 const data = [
   { 
-    name: "Web-Development",
+    name: "Web",
+    addon: "Development",
     data: "Examined as an existence in the soul of the Internet age, Web Development is a professional field which has helped the world envision numerous aspects of E-shopping, E-transition and many more ",
     img: webd,
   },
   {
-    name: "Machine Learning ",
+    name: "Machine ",
+    addon: "Learning",
     data: "this is a web development ... ",
-    img:graphic
+    img:ml
   },
   {
-    name: "Android-Development",
+    name: "Android",
+    addon: "Development",
     data: "this is a web development ... ",
     img: and,
   },
   {
-    name: "AR-VR",
+    name: "AR/VR",
+    addon: "",
     data: "this is a web development ... ",
     img: meta,
   },
   {
-    name: "Cyber-Security",
+    name: "Cyber",
+    addon: "Security",
     data: "this is a web development ... ",
     img: cyber,
   },
   {
-    name: "UI-UX",
+    name: "Graphics",
+    addon: "Design",
     data: "this is a web development ... ",
-    img: cyber,
+    img: graphic,
   },
   {
-    name: "Content-Writing",
+    name: "Content",
+    addon: "Writing",
     data: "this is a web development ... ",
     img: cyber,
   }
@@ -59,7 +65,7 @@ const Domain = () => {
 
         <div className={styles.domain_container}>
           {data.map((e) => (
-            <Domaincard key={e} name={e.name} img={e.img} data={e.data} />
+            <Domaincard addon={e.addon} key={e} name={e.name} img={e.img} data={e.data} />
           ))}
         </div>
 

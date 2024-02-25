@@ -1,0 +1,14 @@
+.course_card_container{
+    min-width:250px ;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+
+.img{
+    max-width: 100%;
+    min-width: 250px;
+    height: 40vh;
+    border-radius: 20px;
+}
