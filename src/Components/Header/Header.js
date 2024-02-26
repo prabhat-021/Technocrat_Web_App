@@ -3,7 +3,7 @@ import styles from "./header.module.css";
 import { Link } from "react-router-dom";
 import clubIcon from '../../Assets/clubIcon.png'
 import { FcMenu } from "react-icons/fc";
-import { useEffect,useState} from "react";
+// import { useEffect,useState} from "react";
 import { RxCross2 } from "react-icons/rx";
 
 const Header = () => {

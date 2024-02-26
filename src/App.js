@@ -1,14 +1,13 @@
 
 import './App.css';
 
-import { Toaster } from 'react-hot-toast';
 import { Outlet } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 function App() {
   return (
 <>
-<Toaster
+{/* <Toaster
                     position="top-right"
                     toastOptions={{
                         success: {
@@ -17,7 +16,7 @@ function App() {
                             },
                         },
                     }}
-                ></Toaster>
+                ></Toaster> */}
 
 <div className='container'>
 <Header/>
